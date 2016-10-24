@@ -44,6 +44,7 @@ body{
 }
 .date{
   color: tomato;
+  font-style: italic;
 }
 .ga{
   line-height: 12px;
