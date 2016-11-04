@@ -3,6 +3,8 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   background-color: #222222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar{
@@ -17,6 +19,7 @@ body{
 }
 .body-text{
   line-height: 18px;
+  padding: 5px 0;
 }
 
 .title{
@@ -83,14 +86,21 @@ body{
 }
 
 a{
-  color: grey;
+  color: white;
 }
-a:visited, a:active{
-  color: grey;
-}
-a:hover{
+a:hover, a:active{
   /*color: #29a0da;*/
   color: tomato;
+  text-decoration: none;
+}
+#email, #phone {
+  color: white;
+}
+#email:hover, #phone:hover {
+  color: black;
+}
+.fa{
+  padding: 0px 1px;
 }
 .myinfo{
   padding: 0 0 0 10px;
