@@ -8,14 +8,14 @@ body{
 }
 
 .navbar{
-  border-bottom: none;
+  /*border-bottom: none;*/
   background-color: #000;
   height: 70px;
 
 }
-.navbar-brand{
-  /*height: 100px;*/
-  /*padding: 40px;*/
+.nav{
+  padding: 11px 0;
+  text-align: center;
 }
 .body-text{
   line-height: 18px;
@@ -63,6 +63,11 @@ body{
   font-size: 50px;
   font-weight: bolder;
 }
+@media (max-width: 440px){
+  .name{
+    font-size: 47px;
+  }
+}
 .tag{
   color: #000000;
   font-size: 15px;
@@ -95,6 +100,7 @@ a:hover, a:active{
 }
 #email, #phone {
   color: white;
+  font-size: 20px;
 }
 #email:hover, #phone:hover {
   color: black;
